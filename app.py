@@ -6,7 +6,7 @@ from datetime import datetime
 app = FastAPI()
 
 # Paths
-REPO_PATH = '/home/Harshit/web/mycamtp.com/public_html'  # Replace with the path to your repository
+REPO_PATH = '/home/admin/web/exam60.online/public_html'  # Replace with the path to your repository
 LOG_FILE_PATH = os.path.join(os.getcwd(), 'git_logs.txt')  # Log file in the root directory of the FastAPI app
 
 @app.post("/webhook")
